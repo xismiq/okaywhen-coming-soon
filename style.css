@@ -24,6 +24,10 @@ img {
 	margin: 0;
 	line-height: 0.75em;
 	margin-top: 0.1em;
+
+	@media only screen and (max-width: 600px) {
+		line-height: 0.95em;
+	}
 }
 
 #under-construction-text {
