@@ -22,11 +22,11 @@ img {
 	font-weight: bold;
 	transition: color 0.2s;
 	margin: 0;
-	line-height: 0.75em;
+	line-height: 0.85em;
 	margin-top: 0.1em;
 
 	@media only screen and (max-width: 600px) {
-		line-height: 1em;
+		line-height: 0.9em;
 		descent-override: 0%;
 		ascent-override: 72%;
 		line-gap-override: 3%;
