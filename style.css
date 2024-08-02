@@ -1,0 +1,36 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background-color 0.2s;
+}
+
+.container {
+	text-align: center;
+}
+
+img {
+	margin-top: -5em;
+}
+
+#coming-soon-text {
+	font-family: monospace;
+	font-size: 7em;
+	font-weight: bold;
+	transition: color 0.2s;
+	margin: 0;
+	line-height: 0.75em;
+	margin-top: 0.1em;
+}
+
+#under-construction-text {
+	font-family: monospace;
+	font-size: 1.5em;
+	font-weight: bold;
+	transition: color 0.2s;
+	margin: 0;
+	margin-top: 0.5em;
+}
