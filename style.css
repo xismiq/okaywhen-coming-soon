@@ -26,7 +26,10 @@ img {
 	margin-top: 0.1em;
 
 	@media only screen and (max-width: 600px) {
-		line-height: 0.95em;
+		line-height: 1em;
+		descent-override: 0%;
+		ascent-override: 72%;
+		line-gap-override: 3%;
 	}
 }
 
